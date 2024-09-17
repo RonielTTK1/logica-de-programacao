@@ -1,0 +1,85 @@
+    const preconorteconomicocrianca =900
+    const preconorteconomicoadulto=1200
+    const precoNorteExecutivoadulto = (2500*1,20);
+    const precoNorteExecutivacrianca = (2200*1,10);
+
+    const precoSulEconomicaadulto = 2200;
+    const precoSulEconomicacrianca = 2200;
+    const precoSulExecutivaadulto = 3400;
+    const precoSulExecutivacrianca = 3400;
+
+    const precoAsiaEconomica = 3600;
+
+    const precoAsiaExecutiva = 5000;
+
+    const precoEuropaEconomica = 5800;
+
+    const precoEuropaExecutiva = 7300;
+
+    const precoAfricaEconomica = 2200;
+
+    const precoAfricaExecutiva = 3900;
+
+    const crianca = 2
+    const adulto = 2
+    const classe ="Economica"
+    const destino = "Europa"
+
+   const contacria = 5800*2
+   const contadu = 5800*2
+   const contatotal = (5800*2)+(5800*2)
+
+
+   if (destino === " Norte") {
+    if (classeVoo === "Economica ") {
+        custoAdulto =1200 ;
+        custoCrianca = 900;
+    } else if (classeVoo === " Executiva") {
+        custoAdulto = (2500*1,20)
+        custoCrianca = (2200*1.10)
+    }
+} else if (destino === " Sul") {
+    if (classeVoo === "Economico ") {
+        custoAdulto =2200  ;
+        custoCrianca = 2200 ;
+    } else if (classeVoo === "Executiva ") {
+        custoAdulto = 3400 ;
+        custoCrianca = 3400;
+    }
+} else if (destino === "Ásia ") {
+    if (classeVoo === " Economica") {
+        custoAdulto =3600  ;
+        custoCrianca = 3600 ;
+    } else if (classeVoo === "Executiva ") {
+        custoAdulto =5000  ;
+        custoCrianca = 5000 ;
+    }
+} else if (destino === "Europa ") {
+    if (classeVoo === " Economica") {
+        custoAdulto =5800;
+        custoCrianca = 5800 ;
+    } else if (classeVoo === " Executiva") {
+        custoAdulto = 7300 ;
+        custoCrianca = 7300 ;
+    }
+} else if (destino === "África") 
+    if (classeVoo === " Economica") {
+        custoAdulto = 2200;
+        custoCrianca =  2200;
+    } else if (classeVoo === " Executiva") 
+        custoAdulto =  3900;
+        custoCrianca =  3900;
+
+
+        console.log(" O custo total do seu pacote é:",contatotal)
+console.log("");
+console.log("A quantidade de Passageiros Adultos é: ",adulto);
+console.log("");
+console.log("A quantidade de Passageiros Infantis é:",crianca);
+console.log("");
+console.log("O destino escolhido foi:",destino);
+console.log("");
+console.log("A classe do seu voo é:",classe);
+console.log("");
+console.log("");
+console.log("Boa Viagem ")
